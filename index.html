@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aryan Yadav">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/8345281.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form class="form">
+            <input class="input" type="text" placeholder="Enter City Name">
+        </form>
+    </div>
+    <div class="result">
+        <div class="back">
+            <button class="btn"><i class="fa-solid fa-arrow-left-long"></i></button>
+        </div>
+        <div class="heading">
+            <h2>Today's Weather</h2>
+        </div>
+        <div class="content">
+            <div class="icon">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="icon">
+            </div>
+            <div class="temp">
+                <span class="t">19</span>&#176;F
+            </div>
+            <div class="weather">
+                Rain
+            </div>
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i><span class="loca">Indore</span>
+            </div>
+        </div>
+        <div class="extras">
+            <div class="feel">
+                <div class="a">
+                    <i class="fa-solid fa-temperature-three-quarters"></i> <span class="f">20</span>&#176;F
+                </div>
+            </div>
+            <div class="humi">
+                <div class="a">
+                    <i class="fa-solid fa-droplet"></i>  <span class="h">96</span>% 
+                </div>
+            </div>
+            <div class="wind">
+                <div class="a">
+                    <i class="fa-solid fa-wind"></i> <span class="s">20</span> m/s
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="main.js"></script>
+</body>
+</html>
