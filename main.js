@@ -26,11 +26,12 @@ btn.addEventListener('click',()=> {
 //variables
 let value;
 let i,t,w,l,f,h,wi;
+let key = '5442e534bf99ec26d74035491d19ee7a'
 
 //fetching func
 async function getInfo(value) {
     //fetching url
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${value}&appid=88b3032744f714767d5150ec2a8aa6b5`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${value}&appid=${key}`;
     const response = await fetch(url);
     const data = await response.json();
 
